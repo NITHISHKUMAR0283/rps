@@ -1,0 +1,27 @@
+#result{
+    white-space: pre;
+}
+
+img{
+    transform: scaleX(1);
+}
+.topper{
+    display: flex;
+    justify-content:space-around;
+}
+.left{
+
+}
+#user_choice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -5,11 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="./script.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <label for="user_choide">Enter Your option 1.Scissors 2.rock 3.paper </label>
-    <input type="text" id ="user_choice">
-    <button id="take_input" onclick="user_input()">Submit</button>
+    <div class="topper">
+        
+    <div class="left">
+    <label for="choice">Computer choice</label>
+    <div id="choice"><br><h5>choose yours first</h5></div>
+    </div>
+    <div class="right">
+        
+        <label for="user_choice">User choice</label>
+        <div id="user_choice">
+    <img src="./images/rock.png" onclick="user_input(1)"width="100"alt="Rock" >
+    <img src="images/paper.png" width="60" alt="Paper" onclick="user_input(2)">
+    <img src="images/scissor.png" alt="Scissors"width="80" onclick="user_input(3)">
+    </div>
+    </div>
+    </div>
+    <div id="user"></div>
     
+    <div id="result"></div>
+    <div id="user_score"></div>
+    <div id="computer_score"> </div>
 </body>
 </html>
