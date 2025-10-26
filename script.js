@@ -41,16 +41,16 @@ function judge(user_choice){
 
     const image=document.createElement("img")
     if (c==0){
-        image.src="./src/images/rock.png"
+        image.src="./images/rock.png"
         image.width="100"
         image.style.transform= "scaleX(-1)";}
     else if (c==1){
-        image.src="./src/images/paper.png"
+        image.src="./images/paper.png"
         image.width="60"
         image.style.transform= "scaleX(-1)";
     }
     else {
-        image.src="./src/images/scissor.png"
+        image.src="./images/scissor.png"
         image.width="80"
         image.style.transform= "scaleX(-1)";
     }
